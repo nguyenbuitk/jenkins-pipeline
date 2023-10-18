@@ -1,0 +1,5 @@
+version: '3'
+services:
+  maven:
+    iamge: "buinguyen/$IMAGE:$TAG"
+    container_name: maven-app
