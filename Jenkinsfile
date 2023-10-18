@@ -27,7 +27,6 @@ pipeline {
             }
         }
 
-        # test the image is pushed
         stage('Test') {
             steps {
                 sh './jenkins/test/mvn.sh mvn test'
